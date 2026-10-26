@@ -1,0 +1,11 @@
+# Project configuration loads after the project is trusted in Codex.
+# Model and reasoning settings inherit the user's configuration.
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
+
+[agents]
+# Two workers in addition to the main agent. This is a ceiling, not a target.
+max_concurrent_threads_per_session = 2
+
+[plugins."session-tools@codex-agents"]
+enabled = true

@@ -1,0 +1,4 @@
+# Optional snippet: merge into the target project's .codex/config.toml.
+# This file is not loaded automatically.
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"

@@ -1,0 +1,13 @@
+{
+  "checked_on": "2026-10-26",
+  "popularity_metric": "Approximate GitHub stars displayed by primary repository pages; not a quality benchmark.",
+  "tools": [
+    {"name": "Superpowers", "url": "https://github.com/obra/superpowers", "stars_approx": 305000, "kind": "skills-plugin", "codex_support": "App and CLI plugin", "status": "optional-not-installed"},
+    {"name": "Langfuse", "url": "https://github.com/langfuse/langfuse", "stars_approx": 36500, "kind": "observability-platform", "codex_support": "Application instrumentation required; not verified as an automatic Codex session viewer", "status": "optional-not-installed"},
+    {"name": "oh-my-codex", "url": "https://github.com/Yeachan-Heo/oh-my-codex", "stars_approx": 33600, "kind": "orchestration-runtime-plugin", "codex_support": "Primarily macOS/Linux Codex CLI; runtime plus setup required", "status": "optional-not-installed"},
+    {"name": "Agent Orchestrator", "url": "https://github.com/OrchestratorInc/agent-orchestrator", "stars_approx": 13700, "kind": "orchestration-app", "codex_support": "Codex supported among multiple agent backends", "status": "optional-not-installed"},
+    {"name": "CodexMonitor", "url": "https://github.com/Dimillian/CodexMonitor", "stars_approx": 4400, "kind": "desktop-app", "codex_support": "Codex app-server", "status": "optional-not-installed"},
+    {"name": "Agent Flow", "url": "https://github.com/patoles/agent-flow", "stars_approx": 1700, "kind": "graph-viewer", "codex_support": "Codex rollout logs; VS Code extension or web UI", "status": "recommended-not-installed"},
+    {"name": "Agent Monitor", "url": "https://github.com/donvito/agent-monitor", "stars_approx": 85, "kind": "local-trace-viewer", "codex_support": "Codex sessions with parent/subagent links", "status": "optional-not-installed"}
+  ]
+}

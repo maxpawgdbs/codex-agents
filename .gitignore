@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+evals/runs/
+.omx/
+node_modules/
+.codex/*
+!.codex/config.toml
+!.codex/agents/
+!.codex/agents/*.toml

@@ -1,0 +1,14 @@
+{
+  "name": "session-tools",
+  "version": "0.1.0",
+  "description": "Compact evidence-based handoffs for Codex tasks.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Session Tools",
+    "shortDescription": "Compact task handoffs",
+    "longDescription": "Preserve the task, decisions, checks, and next steps across sessions.",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": ["Prepare a compact handoff for this task."]
+  }
+}
